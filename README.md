@@ -6,7 +6,7 @@
 
 Nonogram is a popular puzzle in Japan and Netherlands.
 
-A simple nonogram consists of positive integers in the top of a column of left of a row stand for the lengths of black runs in the column or row, respectively. The goal is to paint cells to form a picture that satisfies the following constraints:
+A simple nonogram consists of positive integers in the top of a column or left of a row. The integers stand for the lengths of black runs in the column or row, respectively. The goal is to paint cells to form a picture that satisfies the following constraints:
 
 1. Each cell must be coloured (black) or left empty (white)
 2. If a row or column has $k$ numbers: $$ s_1, s_2, ..., s_k$$, then it must contain $k$ black runs - the first (leftmost for rows/topmost for columns) black run with length $s_1$, the second black run with length $s_2$, and so on.
